@@ -5,13 +5,23 @@ class Shape
 {
   protected:
     double width, height;
+<<<<<<< HEAD
   public:
     void set_data (double a, double b);;;;;;
+=======
+  public
+    void set_data (double a, double b);
+    {
+        width = a;
+        height = b;
+    }
+>>>>>>> testing
     virtual double area() = 0;
 };
  
 class Rectangle: public Shape
 {
+<<<<<<< HEAD
 public:
     double area ()
     {
@@ -20,6 +30,16 @@ public:
 };
  
 class Triangle: public Shape
+=======
+public
+    double area ()
+    {
+        return (width * height)
+    }
+};
+ 
+class Triangle: public Shape;
+>>>>>>> testing
 {
 public:
     double area ()
