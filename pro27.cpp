@@ -8,8 +8,7 @@ class Shape
 <<<<<<< HEAD
  
 =======
-  public;;;
-    void set_data (double a, double b);
+ 
     {
         width = a;
         height = b;
@@ -18,7 +17,7 @@ class Shape
     virtual double area() = 0;
 };
  
-class Rectangle: public Shape
+class Rectangle: public Shape;;;
 {
 <<<<<<< HEAD
 public:
