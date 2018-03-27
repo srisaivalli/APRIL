@@ -6,10 +6,9 @@ class Shape
   protected:
     double width, height;
 <<<<<<< HEAD
-  public:
-    void set_data (double a, double b);;;;;;
+ 
 =======
-  public
+  public;;;
     void set_data (double a, double b);
     {
         width = a;
