@@ -13,7 +13,7 @@ void area()
  
     {
         width = a;
-        height = b;
+        height = b hhhh;
     }
 >>>>>>> testing
     virtual double area() = 0;
