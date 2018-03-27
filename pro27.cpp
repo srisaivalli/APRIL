@@ -8,6 +8,8 @@ class Shape
 <<<<<<< HEAD
  
 =======
+  public:
+void area()
  
     {
         width = a;
